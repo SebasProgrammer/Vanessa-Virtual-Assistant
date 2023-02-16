@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Muestrame los resultados de la búsqueda
+    </h1>
+    <form action="/documents" method="post">
+        <input type="text" name="name_doc" placeholder="Buscar">
+        <input type = "submit" value="buscar">
+    </form>
+    <br>
+<!--    {% block content %}-->
+<!--        <div>-->
+<!--&lt;!&ndash;            {% for doc in documents %}&ndash;&gt;-->
+<!--&lt;!&ndash;            <li>&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <img>{{doc[2]}}</img>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;                <h1>{{doc['nombre']}}</h1>&ndash;&gt;-->
+<!--&lt;!&ndash;            </li>&ndash;&gt;-->
+<!--&lt;!&ndash;            {% endfor %}&ndash;&gt;-->
+<!--&lt;!&ndash;            <li>{{documents}}</li>&ndash;&gt;-->
+<!--            <img src="images/HOLA.png">-->
+<!--        </div>-->
+<!--    {% endblock %}-->
+    <div class = "retrieve" style="background-image:url('/static/dni.png');"> </div>
+</body>
+
+</html>
